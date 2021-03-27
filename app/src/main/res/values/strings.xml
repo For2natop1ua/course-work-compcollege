@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> Chess</string>
+    <string name="app_name_play">Play</string>
+    <string name="app_name_help">Help</string>
+    <string name="app_name_save_games">Saved games</string>
+    <string name="version_number">Version: %1$s</string>
+
+    <string name="language">en</string>
+
+    <string name="start_play">Play</string>
+    <string name="start_about">About</string>
+    <string name="start_globalpreferences">Global settings</string>
+
+    <string name="globalpreferences">Global settings</string>
+    <string name="playpreferences">Play settings</string>
+    <string name="preferences">Settings</string>
+    <string name="pref_colorscheme">Color scheme</string>
+    <string name="pref_colorscheme_desc">Colors for the board tiles</string>
+    <string name="pref_showCoords">Coordinates</string>
+    <string name="pref_showCoords_desc">Show board coordinates</string>
+    <string name="pref_showLastMove">Show last move</string>
+    <string name="pref_showLastMove_desc">Shows the last move with highlighted squares</string>
+    <string name="pref_onLoadJumpToLastMove">Jump to last move</string>
+    <string name="pref_onLoadJumpToLastMove_desc">When resuming the App, jump to the last move</string>
+    <string name="pref_icsconfirmmove">Confirm move</string>
+    <string name="pref_icsconfirmmove_desc">Manually confirm a move. If unchecked, a long press on the destination square will show the confirm dialog.</string>
+    <string name="pref_icscustomcommand">Custom commands</string>
+    <string name="pref_icscustomcommand_desc">Create your own custom commands</string>
+    <string name="pref_icsconsolecharactersize">CONSOLE character size</string>
+    <string name="pref_icstimewarning">Time Low Warning</string>
+    <string name="pref_icstimewarning_desc">A ticking noise warns you if your time is at Time Warning Amount or less</string>
+    <string name="pref_icstimewarningsecs">Time Warning Amount (secs)</string>
+    <string name="pref_icstimewarningsecs_desc">How many seconds until time warning starts?</string>
+    <string name="prefs_icsendgamedialog">EndGame Dialog</string>
+    <string name="prefs_icsendgamesummary">At the end of a game, do you want a save dialog to popup?</string>
+    <string name="prefs_icsshowclock">Show Clock Times in PGN</string>
+    <string name="pref_icsnotification">Notification of New Game</string>
+    <string name="prefs_icsnotificationsummary">Lets you know the start of a game with an icon</string>
+    <string name="pref_localelanguage">Set The Language</string>
+    <string name="pref_localelanguage_desc">Choose the language you would like to use</string>
+
+    <string name="button_play">Play</string>
+    <string name="button_undo">Undo</string>
+    <string name="button_ok">OK</string>
+    <string name="button_menu">Menu</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_close">Close</string>
+    <string name="button_save">Save</string>
+    <string name="button_save_copy">Save copy</string>
+    <string name="button_new">New</string>
+    <string name="button_show">Show</string>
+    <string name="button_jump">Jump to #</string>
+
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_confirm">Confirm</string>
+
+    <string name="title_pick_level">Pick playing level</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_save_game">Save game</string>
+    <string name="title_options">Options</string>
+    <string name="title_delete_game">Delete game</string>
+    <string name="title_pick_promo">Pick promotion piece</string>
+    <string name="title_castle">Castle?</string>
+    <string name="title_pick_colorscheme">Choose color</string>
+    <string name="title_pick_playmode">Choose play mode</string>
+
+    <string name="menu_help">Help</string>
+    <string name="menu_new">New Game</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_save_game">Save game</string>
+    <string name="menu_load_game">Load game</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_flip">Flip board</string>
+    <string name="menu_more">More…</string>
+    <string name="menu_set_clock">Set clock</string>
+    <string name="menu_prefs">Settings</string>
+    <string name="menu_global_prefs">Global Settings</string>
+
+    <string name="menu_subview_title">Choose sub controls</string>
+    <string name="menu_subview_cpu">Android operation information</string>
+    <string name="menu_subview_moves">Move history</string>
+    <string name="menu_subview_seek">Move seek bar</string>
+    <string name="menu_subview_captured">Captured pieces</string>
+
+    <string name="options_play_human">Human vs Human</string>
+    <string name="options_play_android">Human vs Android</string>
+    <string name="options_play_white">White</string>
+    <string name="options_play_black">Black</string>
+    <string name="options_auto_flip">Auto flip board</string>
+    <string name="options_flip">Flip board</string>
+    <string name="options_show_moves">Show moves</string>
+    <string name="options_level_time">Level (time)</string>
+    <string name="options_level_ply">Level (ply)</string>
+
+    <string name="state_play">in play</string>
+    <string name="state_draw">draw</string>
+    <string name="state_draw_material">draw (material)</string>
+    <string name="state_draw_50">draw (50 move rule)</string>
+    <string name="state_draw_stalemate">draw (stalemate)</string>
+    <string name="state_draw_repeat">draw (3-fold repetition)</string>
+    <string name="state_mate">checkmated</string>
+    <string name="state_check">check</string>
+
+    <string name="level_format">Level: %s</string>
+    <string name="choice_level_1">1 sec</string>
+    <string name="choice_level_2">2 sec </string>
+    <string name="choice_level_3">4 sec</string>
+    <string name="choice_level_4">8 sec (average) </string>
+    <string name="choice_level_5">10 sec</string>
+    <string name="choice_level_6">20 sec</string>
+    <string name="choice_level_7">30 sec (experienced) </string>
+    <string name="choice_level_8">1 minute</string>
+    <string name="choice_level_9">5 minutes</string>
+    <string name="choice_level_10">15 minutes</string>
+    <string name="choice_queen">Queen</string>
+    <string name="choice_rook">Rook</string>
+    <string name="choice_bishop">Bishop</string>
+    <string name="choice_knight">Knight</string>
+    <string name="choice_clock_num_minutes">%d minutes</string>
+
+
+    <string name="savegame_event">Event</string>
+    <string name="savegame_event_question">Event?</string>
+    <string name="savegame_white">White</string>
+    <string name="savegame_white_question">Player#1</string>
+    <string name="savegame_black">Black</string>
+    <string name="savegame_black_question">Player#2</string>
+    <string name="savegame_date">Date</string>
+    <string name="savegame_date_question">Date?</string>
+
+    <string name="gameslist_stars">Stars</string>
+    <string name="gameslist_date">Date</string>
+    <string name="gameslist_event">Event</string>
+    <string name="gameslist_id">ID</string>
+    <string name="games_list_white_pieces">White pieces</string>
+    <string name="gameslist_black_pieces">Black pieces</string>
+
+    <string name="msg_illegal_move">Illegal move</string>
+    <string name="msg_state_format">%1$s</string>
+    <string name="msg_thinking">Thinking&#8230;</string>
+    <string name="msg_wait">Please wait&#8230;</string>
+
+
+    <string name="err_load_pgn">PGN chess history could not be loaded</string>
+
+
+</resources>

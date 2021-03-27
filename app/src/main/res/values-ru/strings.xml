@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Шахматы</string>
+    <string name="app_name_play">Игра</string>
+    <string name="app_name_help">Помощь</string>
+    <string name="app_name_save_games">Сохранённые игры</string>
+    <string name="version_number">Версия: %1$s</string>
+
+    <string name="language">ru</string>
+
+    <string name="start_play">Играть</string>
+    <string name="start_about">О приложении</string>
+    <string name="start_globalpreferences">Глобальные настройки</string>
+
+    <string name="globalpreferences">Глобальные настройки</string>
+    <string name="playpreferences">Настройки игры</string>
+    <string name="preferences">Настройки</string>
+    <string name="pref_colorscheme">Цветовая схема</string>
+    <string name="pref_colorscheme_desc">Цвета для плиток доски</string>
+    <string name="pref_showCoords">Координаты</string>
+    <string name="pref_showCoords_desc">Показывать координаты доски</string>
+    <string name="pref_showLastMove">Показывать последний ход</string>
+    <string name="pref_showLastMove_desc">Показывать последний ход с помощью выделенных квадратов</string>
+    <string name="pref_onLoadJumpToLastMove">Переход к последнему ходу</string>
+    <string name="pref_onLoadJumpToLastMove_desc">Переходить к последнему ходу при возобновлении приложения</string>
+    <string name="pref_localelanguage">Установить язык</string>
+    <string name="pref_localelanguage_desc">Выбрать язык для использования</string>
+
+    <string name="button_play">Играть</string>
+    <string name="button_undo">Отменить</string>
+    <string name="button_ok">OK</string>
+    <string name="button_menu">Меню</string>
+    <string name="button_cancel">Закрыть</string>
+    <string name="button_close">Закрыть</string>
+    <string name="button_save">Сохранить</string>
+    <string name="button_save_copy">Сохранить копию</string>
+    <string name="button_new">Новая</string>
+    <string name="button_show">Показать</string>
+    <string name="button_jump">Перейти к #</string>
+
+    <string name="alert_yes">Да</string>
+    <string name="alert_no">Нет</string>
+    <string name="alert_cancel">Закрыть</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_confirm">Подтвердить</string>
+
+
+    <string name="title_pick_level">Выбрать уровень игры</string>
+    <string name="title_menu">Меню</string>
+    <string name="title_save_game">Сохранить игру</string>
+    <string name="title_options">Параметры</string>
+    <string name="title_delete_game">Удалить игру</string>
+    <string name="title_pick_promo">Выбрать фигуру для превращения</string>
+    <string name="title_castle">Рокировать?</string>
+    <string name="title_pick_colorscheme">Выбрать цвет</string>
+    <string name="title_pick_playmode">Выбрать режим игры</string>
+
+    <string name="menu_help">Помощь</string>
+    <string name="menu_new">Новая игра</string>
+    <string name="menu_options">Параметры</string>
+    <string name="menu_save_game">Сохранить игру</string>
+    <string name="menu_load_game">Загрузить игру</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_exit">Выход</string>
+    <string name="menu_flip">Перевернуть доску</string>
+    <string name="menu_more">Ещё…</string>
+    <string name="menu_set_clock">Установить время</string>
+    <string name="menu_prefs">Настройки</string>
+    <string name="menu_global_prefs">Глобальные настройки</string>
+
+    <string name="menu_subview_title">Выберите подменю управления</string>
+    <string name="menu_subview_cpu">Информация о работе Android</string>
+    <string name="menu_subview_moves">Прокручивать историю ходов</string>
+    <string name="menu_subview_seek">Прокручивать ползунок</string>
+    <string name="menu_subview_captured">Захваченные фигуры</string>
+
+    <string name="options_play_human">Человек против Человека</string>
+    <string name="options_play_android">Человек против Android</string>
+    <string name="options_play_white">Белые</string>
+    <string name="options_play_black">Чёрные</string>
+    <string name="options_auto_flip">Автоповорот доски</string>
+    <string name="options_flip">Перевернуть доску</string>
+    <string name="options_show_moves">Показывать ходы</string>
+    <string name="options_level_time">Уровень (время)</string>
+    <string name="options_level_ply">Уровень (полуход)</string>
+
+    <string name="state_play">в игре</string>
+    <string name="state_draw">ничья</string>
+    <string name="state_draw_material">ничья (материал)</string>
+    <string name="state_draw_50">ничья (правило 50 ходов)</string>
+    <string name="state_draw_stalemate">ничья (пат)</string>
+    <string name="state_draw_repeat">ничья (трёхкратное повторение)</string>
+    <string name="state_mate">мат</string>
+    <string name="state_check">шах</string>
+
+    <string name="level_format">Уровень: %s</string>
+    <string name="choice_level_1">1 сек</string>
+    <string name="choice_level_2">2 сек </string>
+    <string name="choice_level_3">4 сек</string>
+    <string name="choice_level_4">8 сек (средние) </string>
+    <string name="choice_level_5">10 сек</string>
+    <string name="choice_level_6">20 сек</string>
+    <string name="choice_level_7">30 сек (опытные) </string>
+    <string name="choice_level_8">1 минута</string>
+    <string name="choice_level_9">5 минут</string>
+    <string name="choice_level_10">15 минут</string>
+    <string name="choice_queen">Ферзь</string>
+    <string name="choice_rook">Ладья</string>
+    <string name="choice_bishop">Слон</string>
+    <string name="choice_knight">Конь</string>
+    <string name="choice_clock_num_minutes">%d минут(ы)</string>
+
+
+    <string name="savegame_event">Событие</string>
+    <string name="savegame_event_question">Событие?</string>
+    <string name="savegame_white">Белые</string>
+    <string name="savegame_white_question">Игрок#1</string>
+    <string name="savegame_black">Чёрные</string>
+    <string name="savegame_black_question">Игрок#2</string>
+    <string name="savegame_date">Дата</string>
+    <string name="savegame_date_question">Дата?</string>
+
+    <string name="gameslist_stars">Звёзды</string>
+    <string name="gameslist_date">Дата</string>
+    <string name="gameslist_event">Событие</string>
+    <string name="gameslist_id">Номер</string>
+    <string name="games_list_white_pieces">Белые фигуры</string>
+    <string name="gameslist_black_pieces">Чёрные фигуры</string>
+
+    <string name="msg_illegal_move">Невозможный ход</string>
+    <string name="msg_state_format">%1$s</string>
+    <string name="msg_thinking">Обдумывание&#8230;</string>
+    <string name="msg_wait">Пожалуйста, подождите&#8230;</string>
+
+    <string name="err_load_pgn">Шахматная PGN-история не может быть загружена</string>
+
+</resources>

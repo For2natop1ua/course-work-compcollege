@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_options"
+        android:title="@string/menu_options"
+        android:showAsAction="never"/>
+    <item android:id="@+id/action_flip"
+        android:title="@string/menu_flip"
+        android:showAsAction="never"/>
+    <item android:id="@+id/action_clock"
+        android:title="@string/menu_set_clock"
+        android:showAsAction="never"/>
+    <item android:id="@+id/action_help"
+          android:title="@string/menu_help"
+        android:showAsAction="never"/>
+</menu>

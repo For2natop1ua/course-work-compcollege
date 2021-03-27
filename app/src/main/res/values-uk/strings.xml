@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Шахи</string>
+    <string name="app_name_play">Гра</string>
+    <string name="app_name_help">Допомога</string>
+    <string name="app_name_save_games">Збережені ігри</string>
+    <string name="version_number">Версія: %1$s</string>
+
+    <string name="language">uk</string>
+
+    <string name="start_play">Грати</string>
+    <string name="start_about">Про додаток</string>
+    <string name="start_globalpreferences">Глобальні налаштування</string>
+
+    <string name="globalpreferences">Глобальні налаштування</string>
+    <string name="playpreferences">Налаштування гри</string>
+    <string name="preferences">Налаштування</string>
+    <string name="pref_colorscheme">Кольорова схема</string>
+    <string name="pref_colorscheme_desc">Кольори для плиток шахівниці</string>
+    <string name="pref_showCoords">Координати</string>
+    <string name="pref_showCoords_desc">Показати координати шахівниці</string>
+    <string name="pref_showLastMove">Показати останній хід</string>
+    <string name="pref_showLastMove_desc">Показувати останній хід за допомогою виділених квадратів</string>
+    <string name="pref_onLoadJumpToLastMove">Перехід до останнього ходу</string>
+    <string name="pref_onLoadJumpToLastMove_desc">Переходить до останнього ходу при відновленні додатку</string>
+    <string name="pref_localelanguage">Встановити мову</string>
+    <string name="pref_localelanguage_desc">Обрати мову для використання</string>
+
+    <string name="button_play">Грати</string>
+    <string name="button_undo">Відмінити</string>
+    <string name="button_ok">OK</string>
+    <string name="button_menu">Меню</string>
+    <string name="button_cancel">Закрити</string>
+    <string name="button_close">Закрити</string>
+    <string name="button_save">Зберегти</string>
+    <string name="button_save_copy">Зберегти копію</string>
+    <string name="button_new">Нова</string>
+    <string name="button_show">Показати</string>
+    <string name="button_jump">Перейти до #</string>
+
+    <string name="alert_yes">Так</string>
+    <string name="alert_no">Ні</string>
+    <string name="alert_cancel">Закрити</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_confirm">Підтвердити</string>
+
+
+    <string name="title_pick_level">Обрати рівень складності</string>
+    <string name="title_menu">Меню</string>
+    <string name="title_save_game">Зберегти гру</string>
+    <string name="title_options">Параметри</string>
+    <string name="title_delete_game">Видалити гру</string>
+    <string name="title_pick_promo">Обрати фігуру для перетворення</string>
+    <string name="title_castle">Рокірувати?</string>
+    <string name="title_pick_colorscheme">Обрати колір</string>
+    <string name="title_pick_playmode">Обрати режим гри</string>
+
+    <string name="menu_help">Допомога</string>
+    <string name="menu_new">Нова гра</string>
+    <string name="menu_options">Параметри</string>
+    <string name="menu_save_game">Зберегти гру</string>
+    <string name="menu_load_game">Завантажити гру</string>
+    <string name="menu_about">Про додаток</string>
+    <string name="menu_exit">Вихід</string>
+    <string name="menu_flip">Перевернути шахівницю</string>
+    <string name="menu_more">Ще…</string>
+    <string name="menu_set_clock">Встановити час</string>
+    <string name="menu_prefs">Налаштування</string>
+    <string name="menu_global_prefs">Глобальні налаштування</string>
+
+    <string name="menu_subview_title">Оберіть підменю управління</string>
+    <string name="menu_subview_cpu">Інформація про роботу Android</string>
+    <string name="menu_subview_moves">Прокручувати історію ходів</string>
+    <string name="menu_subview_seek">Прокручувати повзунок</string>
+    <string name="menu_subview_captured">Захоплені фігури</string>
+
+    <string name="options_play_human">Людина проти Людини</string>
+    <string name="options_play_android">Людина проти Android</string>
+    <string name="options_play_white">Білі</string>
+    <string name="options_play_black">Чорні</string>
+    <string name="options_auto_flip">Автоповорот шахівниці</string>
+    <string name="options_flip">Перевернути шахівницю</string>
+    <string name="options_show_moves">Показувати ходи</string>
+    <string name="options_level_time">Рівень (час)</string>
+    <string name="options_level_ply">Рівень (півхід)</string>
+
+    <string name="state_play">у грі</string>
+    <string name="state_draw">нічия</string>
+    <string name="state_draw_material">нічия (матеріал)</string>
+    <string name="state_draw_50">нічия (правило 50 ходів)</string>
+    <string name="state_draw_stalemate">нічия (пат)</string>
+    <string name="state_draw_repeat">нічия (триразове повторення)</string>
+    <string name="state_mate">мат</string>
+    <string name="state_check">шах</string>
+
+    <string name="level_format">Рівень: %s</string>
+    <string name="choice_level_1">1 сек</string>
+    <string name="choice_level_2">2 сек </string>
+    <string name="choice_level_3">4 сек</string>
+    <string name="choice_level_4">8 сек (середній) </string>
+    <string name="choice_level_5">10 сек</string>
+    <string name="choice_level_6">20 сек</string>
+    <string name="choice_level_7">30 сек (важкий) </string>
+    <string name="choice_level_8">1 хвилина</string>
+    <string name="choice_level_9">5 хвилин</string>
+    <string name="choice_level_10">15 хвилин</string>
+    <string name="choice_queen">Ферзь</string>
+    <string name="choice_rook">Тура</string>
+    <string name="choice_bishop">Слон</string>
+    <string name="choice_knight">Кінь</string>
+    <string name="choice_clock_num_minutes">%d хвилин(и)</string>
+
+
+    <string name="savegame_event">Подія</string>
+    <string name="savegame_event_question">Подія?</string>
+    <string name="savegame_white">Білі</string>
+    <string name="savegame_white_question">Гравець#1</string>
+    <string name="savegame_black">Чорні</string>
+    <string name="savegame_black_question">Гравець#2</string>
+    <string name="savegame_date">Дата</string>
+    <string name="savegame_date_question">Дата?</string>
+
+    <string name="gameslist_stars">Зірки</string>
+    <string name="gameslist_date">Дата</string>
+    <string name="gameslist_event">Подія</string>
+    <string name="gameslist_id">Номер</string>
+    <string name="games_list_white_pieces">Білі фігури</string>
+    <string name="gameslist_black_pieces">Чорні фігури</string>
+
+    <string name="msg_illegal_move">Неможливий хід</string>
+    <string name="msg_state_format">%1$s</string>
+    <string name="msg_thinking">Обдумування&#8230;</string>
+    <string name="msg_wait">Будь ласка, зачекайте&#8230;</string>
+
+    <string name="err_load_pgn">Шахова PGN-історія не може бути завантажена</string>
+
+
+    
+
+</resources>

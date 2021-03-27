@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="start_menu">
+		<item>@string/start_play</item>
+		<item>@string/start_globalpreferences</item>
+		<item>@string/start_about</item>
+	</string-array>
+    <string-array name="levels_ply">
+        <item>1 півхід</item>
+        <item>2 півхода</item>
+        <item>3 півхода</item>
+        <item>4 півхода</item>
+        <item>5 півходів</item>
+        <item>6 півходів</item>
+        <item>7 півходів</item>
+        <item>8 півходів</item>
+        <item>9 півходів</item>
+        <item>10 півходів</item>
+    </string-array>
+    <string-array name="levels_time">
+        <item>@string/choice_level_1</item>
+        <item>@string/choice_level_2</item>
+        <item>@string/choice_level_3</item>
+        <item>@string/choice_level_4</item>
+        <item>@string/choice_level_5</item>
+        <item>@string/choice_level_6</item>
+        <item>@string/choice_level_7</item>
+        <item>@string/choice_level_8</item>
+        <item>@string/choice_level_9</item>
+        <item>@string/choice_level_10</item>
+    </string-array>
+     <string-array name="promotionpieces">
+        <item>@string/choice_queen</item>
+        <item>@string/choice_rook</item>
+        <item>@string/choice_bishop</item>
+        <item>@string/choice_knight</item>
+    </string-array>
+    <string-array name="playmodes">
+        <item>Ви проти Android</item>
+        <item>Android проти вас</item>
+        <item>Гральна шахівниця</item>
+    </string-array>
+    <string-array name="clockchoices">
+    	<item>без часу</item>
+    	<item>2 хвилини</item>
+    	<item>5 хвилин</item>
+    	<item>10 хвилин</item>
+    	<item>30 хвилин</item>
+    </string-array>
+    <string-array name="colorschemes">
+        <item>Жовтий</item>
+        <item>Синій</item>
+        <item>Зелений</item>
+        <item>Сірий</item>
+        <item>Коричневий</item>
+        <item>Червоний</item>
+    </string-array>
+     <string-array name="match_time_minutes">
+        <item>0</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item>
+        <item>6</item><item>8</item><item>10</item><item>12</item><item>15</item>
+        <item>20</item><item>30</item><item>40</item><item>60</item>
+    </string-array>
+    <string-array name="match_time_increments">
+        <item>0</item><item>2</item><item>3</item><item>4</item><item>5</item>
+        <item>6</item><item>8</item><item>10</item><item>12</item><item>15</item>
+        <item>20</item><item>30</item><item>40</item><item>60</item>
+    </string-array>
+    <string-array name="match_variant">
+    	<item>Стандартные</item>
+    </string-array>
+    <string-array name="console_character_size">
+        <item>6</item><item>8</item><item>10</item><item>12</item>
+        <item>14</item><item>16</item><item>18</item>
+    </string-array>
+    <string-array name="console_character_size_values">
+        <item>6</item><item>8</item><item>10</item><item>12</item>
+        <item>14</item><item>16</item><item>18</item>
+    </string-array>
+    <string-array name="time_warning">
+        <item>5 секунд</item><item>10 секунд</item><item>25 секунд</item>
+        <item>45 секунд</item><item>1 минута</item>
+    </string-array>
+    <string-array name="time_warning_values">
+        <item>5</item><item>10</item><item>25</item>
+        <item>45</item><item>60</item>
+    </string-array>
+    <string-array name="field_files">
+    	<item>нет</item>
+    	<item>a</item>
+    	<item>b</item>
+    	<item>c</item>
+    	<item>d</item>
+    	<item>e</item>
+    	<item>f</item>
+    	<item>g</item>
+    	<item>h</item>
+    </string-array>
+    <string-array name="localearray">
+        <item>English</item>
+        <item>Pусский</item>
+        <item>Українська</item>
+    </string-array>
+    <string-array name="localeKeyarray">
+        <item>en</item>
+        <item>ru</item>
+        <item>uk</item>
+    </string-array>
+</resources>

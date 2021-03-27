@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+     
+     <PreferenceCategory android:title="@string/globalpreferences">
+		 <ListPreference
+			 android:title="@string/pref_localelanguage"
+			 android:summary="@string/pref_localelanguage_desc"
+			 android:key="localelanguage"
+			 android:entries="@array/localearray"
+			 android:entryValues="@array/localeKeyarray" />
+
+		 <Preference
+			android:title="@string/pref_colorscheme"
+			android:summary="@string/pref_colorscheme_desc"
+			android:key="colorSchemeHandle" />
+
+		 <CheckBoxPreference
+			android:title="@string/pref_showLastMove"
+			android:defaultValue="true"
+			android:summary="@string/pref_showLastMove_desc"
+			android:key="showLastMove" />
+		
+		<CheckBoxPreference
+			android:title="@string/pref_showCoords"
+			android:defaultValue="false"
+			android:summary="@string/pref_showCoords_desc"
+			android:key="showCoords" />
+		 <CheckBoxPreference
+			 android:title="@string/pref_onLoadJumpToLastMove"
+			 android:defaultValue="false"
+			 android:summary="@string/pref_onLoadJumpToLastMove_desc"
+			 android:key="onLoadJumpToLastMove" />
+
+
+	 </PreferenceCategory>
+
+</PreferenceScreen>
